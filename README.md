@@ -1,5 +1,11 @@
 # Arch-Linux-Latex-Converter-Package
+## Table of Contents 
+  - [Introduction](#introduction)
+  - [PKGBUILD](#pkgbuild)
+  - [Download](#download)
+  - [Sources](#sources)
 
+## Introduction
 This is a package for Arch Linux that can convert a user friendly equation to a LaTeX equation. The python files are an extension from my derivative calculator which parses the user's inputted equation using an abstract syntax tree and outputs the input as a LaTeX equation. For more information on how the `python` files work, please visit <a href="https://github.com/rchu02/Derivative-calculator.git" target="_blank">my derivative calculator project</a>. 
 
 All functionalities:
