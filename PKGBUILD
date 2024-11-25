@@ -11,7 +11,5 @@ sha256sums=('SKIP' 'SKIP' 'SKIP')
 package() {
     install -Dm755 latex.py "$pkgdir/usr/bin/latex-converter"
     install -Dm755 ast_to_latex.py "$pkgdir/usr/lib/latex-converter-package/ast_to_latex.py"
-    install -Dm755 eq_parser.py "$pkgdir/usr/bin/latex-converter-package/eq_parser.py"
-   
-    ln -s /usr/lib/mypackage/latex-converter "$pkgdir/usr/bin/latex-converter"
+    install -Dm755 eq_parser.py "$pkgdir/usr/lib/latex-converter-package/eq_parser.py"
  }
